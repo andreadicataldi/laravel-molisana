@@ -67,3 +67,22 @@ main .paste .pasta img {
   width: 100%;
 }
 
+.contatti {
+  color: darkblue;
+  text-align: center;
+  margin: auto;
+  padding: 100px;
+}
+
+.contatti h2 {
+  font-size: 3rem;
+}
+
+.contatti ul {
+  margin: 50px 0px;
+}
+
+.contatti a {
+  font-size: 2rem;
+}
+

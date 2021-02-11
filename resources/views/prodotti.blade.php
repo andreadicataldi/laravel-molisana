@@ -1,5 +1,5 @@
 @extends('app')
-
+@include('partials.header')
 @section('content')
     <main>
         <section class="lunghe">

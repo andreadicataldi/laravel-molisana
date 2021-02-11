@@ -63,3 +63,19 @@ main {
         }
     }
 }
+
+.contatti {
+    color: rgb(0, 0, 139);
+    text-align: center;
+    margin: auto;
+    padding: 100px;
+    h2 {
+        font-size: 3rem;
+    }
+    ul {
+        margin: 50px 0px;
+    }
+    a {
+        font-size: 2rem;
+    }
+}
