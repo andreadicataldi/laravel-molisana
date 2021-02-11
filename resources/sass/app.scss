@@ -1,0 +1,65 @@
+//
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("/img/fondo-pag-speciali.jpg");
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-logo {
+    display: flex;
+    justify-content: center;
+    height: 185px;
+    background-color: white;
+}
+
+nav {
+    display: flex;
+    height: 70px;
+    background-color: rgb(153, 233, 146);
+    justify-content: center;
+    align-items: center;
+    ul {
+        display: flex;
+        a {
+            margin: 0px 20px;
+            color: white;
+            font-weight: bold;
+        }
+        a:hover {
+            color: rgb(0, 0, 139);
+            text-decoration: underline;
+        }
+    }
+}
+
+main {
+    h2 {
+        color: rgb(0, 0, 139);
+        text-align: center;
+        margin: auto;
+        margin-top: 10px;
+        font-size: 2rem;
+    }
+    .paste {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(33%, 1fr));
+        .pasta {
+            margin: 30px;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
