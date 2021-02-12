@@ -10,6 +10,7 @@
                         <div class="pasta">
                             <img src="{{ $pasta['src'] }}" alt="">
                             <div class="overlay">
+                                <p>{{ $pasta['titolo'] }}</p>
                                 <img src="{{ asset('/img/icon.svg') }}" alt="">
                             </div>
                         </div>
@@ -25,6 +26,7 @@
                         <div class="pasta">
                             <img src="{{ $pasta['src'] }}" alt="">
                             <div class="overlay">
+                                <p>{{ $pasta['titolo'] }}</p>
                                 <img src="{{ asset('/img/icon.svg') }}" alt="">
                             </div>
                         </div>
@@ -40,6 +42,7 @@
                         <div class="pasta">
                             <img src="{{ $pasta['src'] }}" alt="">
                             <div class="overlay">
+                                <p>{{ $pasta['titolo'] }}</p>
                                 <img src="{{ asset('/img/icon.svg') }}" alt="">
                             </div>
                         </div>
