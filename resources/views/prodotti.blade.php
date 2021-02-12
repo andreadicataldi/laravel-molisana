@@ -9,6 +9,9 @@
                     @if ($pasta['tipo'] === 'lunga')
                         <div class="pasta">
                             <img src="{{ $pasta['src'] }}" alt="">
+                            <div class="overlay">
+                                <img src="{{ asset('/img/icon.svg') }}" alt="">
+                            </div>
                         </div>
                     @endif
                 @endforeach
@@ -21,6 +24,9 @@
                     @if ($pasta['tipo'] === 'corta')
                         <div class="pasta">
                             <img src="{{ $pasta['src'] }}" alt="">
+                            <div class="overlay">
+                                <img src="{{ asset('/img/icon.svg') }}" alt="">
+                            </div>
                         </div>
                     @endif
                 @endforeach
@@ -33,6 +39,9 @@
                     @if ($pasta['tipo'] === 'cortissima')
                         <div class="pasta">
                             <img src="{{ $pasta['src'] }}" alt="">
+                            <div class="overlay">
+                                <img src="{{ asset('/img/icon.svg') }}" alt="">
+                            </div>
                         </div>
                     @endif
                 @endforeach

@@ -57,9 +57,26 @@ main {
         grid-template-columns: repeat(auto-fill, minmax(33%, 1fr));
         .pasta {
             margin: 30px;
+            position: relative;
+            cursor: pointer;
+            .overlay {
+                position: absolute;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.52);
+                display: none;
+                align-items: center;
+                img {
+                    height: 100px;
+                }
+            }
             img {
                 width: 100%;
             }
+        }
+        .pasta:hover .overlay {
+            display: flex;
         }
     }
 }

@@ -61,10 +61,30 @@ main .paste {
 
 main .paste .pasta {
   margin: 30px;
+  position: relative;
+  cursor: pointer;
+}
+
+main .paste .pasta .overlay {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.52);
+  display: none;
+  align-items: center;
+}
+
+main .paste .pasta .overlay img {
+  height: 100px;
 }
 
 main .paste .pasta img {
   width: 100%;
+}
+
+main .paste .pasta:hover .overlay {
+  display: flex;
 }
 
 .contatti {
